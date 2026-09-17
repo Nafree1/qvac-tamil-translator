@@ -1,0 +1,24 @@
+{
+  "name": "offline-tamil-translator",
+  "version": "1.0.0",
+  "description": "Offline English <-> Tamil translator that runs entirely on-device using Tether's QVAC SDK. No API key, no server, no bill.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "translation",
+    "tamil",
+    "offline"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.1"
+  }
+}
