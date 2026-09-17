@@ -4,6 +4,8 @@ A tiny CLI that translates between English and Tamil entirely **on-device**, pow
 
 No API key. No usage bill. Nothing you type leaves your machine.
 
+![Screenshot of the CLI translating English to Tamil and back](./demo/screenshot.png)
+
 ## What it does / which QVAC function it calls
 
 Type English, get Tamil. Type Tamil, get English. It calls QVAC's `loadModel()` to load a [Bergamot](https://browser.mt/) neural machine translation model (`BERGAMOT_EN_TA` / `BERGAMOT_TA_EN`) on demand, and `translate()` to run inference locally.
